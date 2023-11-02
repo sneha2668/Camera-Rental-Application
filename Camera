@@ -1,0 +1,33 @@
+package PhaseEnd;
+public class Camera {
+    private String brand;
+    private String model;
+    private double rentalAmountPerDay;
+    private boolean rented;
+
+    public Camera(String brand, String model, double rentalAmountPerDay) {
+        this.brand = brand;
+        this.model = model;
+        this.rentalAmountPerDay = rentalAmountPerDay;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public double getRentalAmountPerDay() {
+        return rentalAmountPerDay;
+    }
+
+    public boolean isRented() {
+        return rented;
+    }
+
+    public void setRented(boolean rented) {
+        this.rented = rented;
+    }
+}
